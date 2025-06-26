@@ -1,0 +1,33 @@
+ul,
+li {
+  list-style-type: none;
+}
+
+.profile-list {
+  overflow: hidden;
+  min-width: 190px;
+}
+
+.profile-item {
+  flex: 0 1 360px;
+  min-width: 230px;
+  padding-right: 30px;
+  border: 1px solid #dedede;
+  padding-inline-start: 0;
+}
+
+.profile-item li:not(:last-child) {
+  border-bottom: 1px solid #dedede;
+}
+
+.profile-button {
+  width: 100%;
+  text-align: left;
+  color: inherit;
+}
+
+button:focus,
+button:active {
+  background-color: rgba(15, 127, 250);
+  color: white;
+}
