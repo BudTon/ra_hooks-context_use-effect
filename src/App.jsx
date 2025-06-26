@@ -25,7 +25,7 @@ export default function App() {
     <div className={'container'}>
       <h1>8. Hooks & Context API</h1>
       <h2>8.1 Список и детали</h2>
-      <div >
+      <div className='profiles'>
         <ProfilesList users={users} handleOnItemClick={handleOnItemClick} />
         <ProfileDetails selectedID={selectedID} />
       </div>

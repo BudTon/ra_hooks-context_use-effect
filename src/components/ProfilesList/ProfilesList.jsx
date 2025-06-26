@@ -6,7 +6,7 @@ export default function ProfilesList ({ users, handleOnItemClick }) {
 
   return (
     <div className={'profile-list'} >
-      <ul className={'profile-item'}  >
+      <ul className={'profile-items'}  >
         {users.map(user => (
           <li className={'profile'} key={user.id}>
             <button className={'profile-button'} onClick={() => handleOnItemClick(user.id)}>

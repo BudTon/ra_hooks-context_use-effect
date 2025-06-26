@@ -42,7 +42,7 @@ export default function ProfileDetails(infoSelected) {
         </div>
       ) : details ? (
         <div className={'details-profile'}>
-          <ul className={'profile-list'}>
+            <ul className={'profile-list-details'}>
             <li>
               <div className={'profiles-img'}>
                 <img src={details.avatar} alt={details.name} />
