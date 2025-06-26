@@ -1,7 +1,7 @@
 Список и детали
 ===
 
-
+[![pages-build-deployment](https://github.com/BudTon/ra_hooks-context_use-effect/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/BudTon/ra_hooks-context_use-effect/actions/workflows/pages/pages-build-deployment)
 
 [GITHUB Pages](https://BudTon.github.io/ra_hooks-context_use-effect/)
 
